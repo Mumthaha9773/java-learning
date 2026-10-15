@@ -11,6 +11,7 @@ public class Main {
             Scanner scn = new Scanner(System.in);
             System.out.print("Enter a character");
             char ch =scn.nextLine().charAt(0);
+            //changing the line
             if((int)ch>=65 && (int)ch <=90){
                 System.out.print("Upper case");
             }
